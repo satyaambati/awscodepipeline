@@ -9,7 +9,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t traing  .
+      - docker build -t satya-rep .
       - docker tag satya-rep:latest 490971871466.dkr.ecr.us-west-2.amazonaws.com/satya-rep:latest
   post_build:
     commands:
