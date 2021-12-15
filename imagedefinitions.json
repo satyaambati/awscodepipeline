@@ -1,6 +1,6 @@
 [
    {
-         "name": "satya",
-         "imageUri": "490971871466.dkr.ecr.us-east-1.amazonaws.com/satya:latest"
+         "name": "satya_pv_rep",
+         "imageUri": "490971871466.dkr.ecr.us-east-1.amazonaws.com/satya_pv_rep:latest"
    }
 ]
