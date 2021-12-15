@@ -9,10 +9,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the Docker image...
-      - docker build -t satya .
-      - docker tag satya:latest 490971871466.dkr.ecr.us-east-1.amazonaws.com/satya:latest
+      - docker build -t satya_pv_rep .
+      - docker tag satya_pv_rep:latest 490971871466.dkr.ecr.us-east-1.amazonaws.com/satya_pv_rep:latest
   post_build:
     commands:
       - echo Build completed on `date`
       - echo Pushing the Docker image...
-      - docker push 490971871466.dkr.ecr.us-east-1.amazonaws.com/satya:latest
+      - docker push 490971871466.dkr.ecr.us-east-1.amazonaws.com/satya_pv_rep:latest
